@@ -8,6 +8,32 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+/* Navigation bar styling */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex; /* Make the navbar horizontal */
+}
+
+.navbar li {
+  float: left;
+  margin-right: 15px;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
 
 .layout_padding2 {
   padding: 45px 0;
